@@ -1,0 +1,18 @@
+{
+  "name": "@database0/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "database0": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo 'no tests yet'"
+  },
+  "dependencies": {
+    "@database0/engine": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

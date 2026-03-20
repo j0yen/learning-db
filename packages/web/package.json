@@ -1,0 +1,14 @@
+{
+  "name": "@database0/web",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "echo 'no tests yet'"
+  },
+  "dependencies": {
+    "@database0/engine": "workspace:*"
+  }
+}
