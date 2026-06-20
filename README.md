@@ -1,10 +1,6 @@
 # learning-db / database0
 
-An educational, configurable Database Management System built from scratch as
-a companion to **CMU 15-445/645: Introduction to Database Systems**. Every
-major subsystem — storage, buffer pool, indexes, joins, optimizer,
-concurrency control — is a swappable implementation behind a trait/interface,
-so the same workload can be run under different configurations side by side.
+A database management system built from scratch to be read, not deployed — a companion to **CMU 15-445/645: Introduction to Database Systems**. Every major subsystem — storage, buffer pool, indexes, joins, optimizer, concurrency control — sits behind a trait/interface with several interchangeable implementations, so you can run the same workload under LRU and then Clock, iterator and then vectorized, and watch the numbers move.
 
 This is a *learning sandbox*, not a production database. Where a 10× faster
 implementation exists but is harder to read, the codebase chooses the readable
@@ -99,4 +95,4 @@ full goals / non-goals list.
 
 ## License
 
-TBD.
+MIT OR Apache-2.0 — see `LICENSE-MIT` and `LICENSE-APACHE`.
